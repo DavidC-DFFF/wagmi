@@ -1,0 +1,11 @@
+npx create-react-app APPLI
+cd APPLI
+Modifier un fichier
+Dans 
+Saisir un message
+ajouter les fichiers au commit
+publier la branche
+'L'extension github veut se connecter'
+Se connecter -> ouvre github sur navigateur
+Valider
+Le repo et la branche sont créés dans Github
