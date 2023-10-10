@@ -46,7 +46,8 @@ function UserInfo() {
     address: '0x3C754189B468f858a9348151A6BAB283Cfb0D3DC',
     abi: './artifacts/Faucet.json',
     functionName: 'balanceOf',
-    args: [address],
+//    args: [address],
+    args: ["0x20d5d767a6263872f0aa7661b057f137ac3ed319"],
   })
   if (address)
     return (<div>
@@ -72,8 +73,8 @@ function App() {
           </div>
           <div>
             <h2>Faucet Settings</h2>
-            <p>Faucet balance: </p>
-            <p>BRN Address: </p>
+            <p>Faucet balance : </p>
+            <p>BRN Address : </p>
             <p>Amount withdrawable : </p>
           </div>
           <div>
