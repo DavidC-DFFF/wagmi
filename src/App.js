@@ -50,11 +50,9 @@ function UserInfo() {
   })
   if (address)
     return (<div>
-      <p>User address : {address}</p>
       <p>User balance : {balance} BRN</p>
     </div>)
   return (<div>
-    <p>User address : Not connected</p>
     <p>User balance : Not connected</p>
   </div>)
 }
@@ -82,6 +80,9 @@ function App() {
             <h2>Withdraw</h2>
           </div>
         </main>
+        <footer className='App-footer'>
+          <Address />
+          </footer>
       </div>
     </WagmiConfig>
 
